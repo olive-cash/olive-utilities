@@ -36,5 +36,5 @@ const permissions = await instance.getHumanizedUserPermissions(walletAddress);
 Are you looking for an example project to get started? Check out repositories
 relying on this library:
 
-- [The open source aave ui](https://github.com/olivecash/aave-ui)
+- [The open source aave ui](https://github.com/olive-cash/aave-ui)
 - [Aave info](https://github.com/sakulstra/info.aave)
