@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.27.1](https://github.com/olive-cash/olive-utilities/compare/@olive-dev/contract-helpers@0.27.0...@olive-dev/contract-helpers@0.27.1) (2021-12-02)
+
+**Note:** Version bump only for package @olive-dev/contract-helpers
+
+
+
+
+
 # 0.27.0 (2021-12-02)
 
 
