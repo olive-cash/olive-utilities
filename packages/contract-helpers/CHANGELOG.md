@@ -3,6 +3,63 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.27.0 (2021-12-02)
+
+
+### Bug Fixes
+
+* accept empty assets array ([#128](https://github.com/olive-cash/olive-utilities/issues/128)) ([7f34ace](https://github.com/olive-cash/olive-utilities/commit/7f34aced708608b8f3e3ea7411dbedf8a37107ac))
+* add missing export ([#141](https://github.com/olive-cash/olive-utilities/issues/141)) ([72a2aa0](https://github.com/olive-cash/olive-utilities/commit/72a2aa07f2478bd877fcbc4850f36bf789bfad2a))
+* added id to reserves object ([#90](https://github.com/olive-cash/olive-utilities/issues/90)) ([3fff4ad](https://github.com/olive-cash/olive-utilities/commit/3fff4ad3fb422f94df9c55a2be5d1c8f7d325a83))
+* added missing id ([#98](https://github.com/olive-cash/olive-utilities/issues/98)) ([abee3f3](https://github.com/olive-cash/olive-utilities/commit/abee3f39d6f2c9a0c25054ac9033f34daf628523))
+* batch of fixes ([#78](https://github.com/olive-cash/olive-utilities/issues/78)) ([37fc7f8](https://github.com/olive-cash/olive-utilities/commit/37fc7f8b1d3c1dd15834f28afd9e9bd251c354f6))
+* bind this context ([#164](https://github.com/olive-cash/olive-utilities/issues/164)) ([b1606ab](https://github.com/olive-cash/olive-utilities/commit/b1606ab89d214c0d46e2c7eb0ae06f7ad3c9bc3a))
+* coverage ([#171](https://github.com/olive-cash/olive-utilities/issues/171)) ([9c16633](https://github.com/olive-cash/olive-utilities/commit/9c166331e1c343481129a49b3e4eb610b2de13f6))
+* dont encode encoded hashes ([#183](https://github.com/olive-cash/olive-utilities/issues/183)) ([90e001b](https://github.com/olive-cash/olive-utilities/commit/90e001bb13ced072ea1532d767e9ed0678e13430))
+* drop fetch options ([#193](https://github.com/olive-cash/olive-utilities/issues/193)) ([f6d0cf9](https://github.com/olive-cash/olive-utilities/commit/f6d0cf9edb7ffdea43a3ac2bbd505cea3d24710c))
+* drop ipfs fetching ([#186](https://github.com/olive-cash/olive-utilities/issues/186)) ([cffb69e](https://github.com/olive-cash/olive-utilities/commit/cffb69eae36279b9946c0815dea04c36a9a9f1e5))
+* export ipfs helpers ([#170](https://github.com/olive-cash/olive-utilities/issues/170)) ([ef3c0ae](https://github.com/olive-cash/olive-utilities/commit/ef3c0ae3878061d6b2e6aca878c171f87b617855))
+* fixed get decimals quote param ([#134](https://github.com/olive-cash/olive-utilities/issues/134)) ([7c133e5](https://github.com/olive-cash/olive-utilities/commit/7c133e5ac8f85ad053184c6c663701221ea3109f))
+* remove alpha from master wording ([1e03694](https://github.com/olive-cash/olive-utilities/commit/1e03694924f7f9f414f1257ba3b2ef4674ef8874))
+* remove faucet param ([#147](https://github.com/olive-cash/olive-utilities/issues/147)) ([28a6cee](https://github.com/olive-cash/olive-utilities/commit/28a6ceead1dd0767fce3109e4e962ad6e5585f8a))
+* remove staking address from type ([#173](https://github.com/olive-cash/olive-utilities/issues/173)) ([57ff194](https://github.com/olive-cash/olive-utilities/commit/57ff1944c174a3fa32df755c7e08ee18a614f914))
+* uipooldataprovider price aggregators ([#100](https://github.com/olive-cash/olive-utilities/issues/100)) ([329a50e](https://github.com/olive-cash/olive-utilities/commit/329a50e971263debba8d9122fc55ce323dc71929))
+* user usd formatting ([#155](https://github.com/olive-cash/olive-utilities/issues/155)) ([0f3521b](https://github.com/olive-cash/olive-utilities/commit/0f3521bf0862f0c0b70b6d3b6c2801414cdce977))
+
+
+### Features
+
+* add faucet to txbuiler ([#146](https://github.com/olive-cash/olive-utilities/issues/146)) ([b980595](https://github.com/olive-cash/olive-utilities/commit/b980595e8bfbe6655368645debe3ebe9d1936bd3))
+* add interface for UiPoolDataProvider contract ([#44](https://github.com/olive-cash/olive-utilities/issues/44)) ([01b3cb9](https://github.com/olive-cash/olive-utilities/commit/01b3cb9eacf242f2948c0cf728616b2ed1e2f553))
+* add lending pool txbuilder logic ([#129](https://github.com/olive-cash/olive-utilities/issues/129)) ([1121de4](https://github.com/olive-cash/olive-utilities/commit/1121de49ca2c3508cc377edfd72927c4e36dc445))
+* add precision ([#65](https://github.com/olive-cash/olive-utilities/issues/65)) ([0fefd66](https://github.com/olive-cash/olive-utilities/commit/0fefd66984fb3649c72a2c3cb8742d6f0be2461e))
+* add release scripts ([#45](https://github.com/olive-cash/olive-utilities/issues/45)) ([94d3612](https://github.com/olive-cash/olive-utilities/commit/94d36123b78eff84b061aa096a5c5d0843741676))
+* add staking contract helper ([#149](https://github.com/olive-cash/olive-utilities/issues/149)) ([f912768](https://github.com/olive-cash/olive-utilities/commit/f91276887db63f62546bbe46cbd23a5526ed586a))
+* added chainlink feeds registry ([8185176](https://github.com/olive-cash/olive-utilities/commit/8185176ea7d16213d641e4786a078185f6d2cf71))
+* added interface ([#83](https://github.com/olive-cash/olive-utilities/issues/83)) ([dd02480](https://github.com/olive-cash/olive-utilities/commit/dd02480da174b017e54968b8913b6985eb347284))
+* added new fields to v3 uipooldataprovider ([#154](https://github.com/olive-cash/olive-utilities/issues/154)) ([09584fe](https://github.com/olive-cash/olive-utilities/commit/09584fede051cfc2be0c05d496d31018431a69f2))
+* contract-helpers package ([#40](https://github.com/olive-cash/olive-utilities/issues/40)) ([b907855](https://github.com/olive-cash/olive-utilities/commit/b907855809a3720e5ae168f53ec772887ab7f967))
+* delegation tx builder ([#156](https://github.com/olive-cash/olive-utilities/issues/156)) ([6abae6d](https://github.com/olive-cash/olive-utilities/commit/6abae6da9204d39cbf30e447a2ba76a6fdc43242))
+* export incentive helpers ([#63](https://github.com/olive-cash/olive-utilities/issues/63)) ([adfbf17](https://github.com/olive-cash/olive-utilities/commit/adfbf17364b63d2af85e358c83fddc75e2c3ab2d))
+* governance voting contract ([#151](https://github.com/olive-cash/olive-utilities/issues/151)) ([ff6726f](https://github.com/olive-cash/olive-utilities/commit/ff6726fc1333b5fbb2794a472e82f6660f89e05d))
+* group claimable rewards and assets by IncentiveController ([#74](https://github.com/olive-cash/olive-utilities/issues/74)) ([20335a3](https://github.com/olive-cash/olive-utilities/commit/20335a37f53ce938c4f0ae6e93a079b030c1aaf4)), closes [#75](https://github.com/olive-cash/olive-utilities/issues/75)
+* incentives feeds ([#81](https://github.com/olive-cash/olive-utilities/issues/81)) ([68b0a4d](https://github.com/olive-cash/olive-utilities/commit/68b0a4d568a9bdba1cdebfedea49ca95a0c72bf7)), closes [#82](https://github.com/olive-cash/olive-utilities/issues/82)
+* make gateway configurable ([#185](https://github.com/olive-cash/olive-utilities/issues/185)) ([b0b63a7](https://github.com/olive-cash/olive-utilities/commit/b0b63a7832cdeb282f4ba244be84ae40342a06d0))
+* map ui pooldata provider for amm tokens  ([#136](https://github.com/olive-cash/olive-utilities/issues/136)) ([82414d0](https://github.com/olive-cash/olive-utilities/commit/82414d03ab1746e9b5de382ba919e48ffd566d92))
+* new uipooldataprovider ([#89](https://github.com/olive-cash/olive-utilities/issues/89)) ([9995fc2](https://github.com/olive-cash/olive-utilities/commit/9995fc267572c5ec5a014ead700b932e7c0082e8))
+* permissions manager ([#73](https://github.com/olive-cash/olive-utilities/issues/73)) ([7931421](https://github.com/olive-cash/olive-utilities/commit/7931421e2844c631db2abef65dd859a7edc87335))
+* ported repay with collateral logic and updated ([#127](https://github.com/olive-cash/olive-utilities/issues/127)) ([eff8beb](https://github.com/olive-cash/olive-utilities/commit/eff8beb85b74111ad67a702fab77fdfa0ad652ab))
+* ported synthetix service ([#123](https://github.com/olive-cash/olive-utilities/issues/123)) ([8f87c14](https://github.com/olive-cash/olive-utilities/commit/8f87c14a2e93def7622fe3e94816b8657c68bcc1))
+* swap liquidity ported. missing tests ([#126](https://github.com/olive-cash/olive-utilities/issues/126)) ([bf09981](https://github.com/olive-cash/olive-utilities/commit/bf099819d5d4d43aadd3b557567470a276ef3885))
+* updated version with network base currency ([#92](https://github.com/olive-cash/olive-utilities/issues/92)) ([072c775](https://github.com/olive-cash/olive-utilities/commit/072c775f2386bd34f2c4fa4da8ddb7e5f2893c86))
+* v3 pool contract ([#165](https://github.com/olive-cash/olive-utilities/issues/165)) ([25676f4](https://github.com/olive-cash/olive-utilities/commit/25676f45e747ac6ff5827ac09e3c3c73658035ee))
+* wallet balance provider ([#43](https://github.com/olive-cash/olive-utilities/issues/43)) ([3262912](https://github.com/olive-cash/olive-utilities/commit/326291294644a4e816cd48b3be555ceef6d94aed))
+* wip: added initial class flow for tx services ([#108](https://github.com/olive-cash/olive-utilities/issues/108)) ([dd6a53b](https://github.com/olive-cash/olive-utilities/commit/dd6a53b1e10f005b64151a55a3bd5cc4119ab62a))
+
+
+
+
+
 ## 0.26.2 (2021-11-22)
 
 
