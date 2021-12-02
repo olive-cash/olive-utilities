@@ -16,6 +16,7 @@ export const ChainIdToNetwork: Record<number, string> = {
   42: 'kovan',
   100: 'xDAI',
   137: 'polygon',
+  250: 'fantom',
   80001: 'mumbai',
   43114: 'avalanche',
   43113: 'fuji',
@@ -28,6 +29,7 @@ export enum ChainId {
   ropsten = 3,
   kovan = 42,
   polygon = 137,
+  fantom = 250,
   mumbai = 80001,
   avalanche = 43114,
   fuji = 43113, // avalanche test network
