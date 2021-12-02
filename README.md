@@ -1,20 +1,20 @@
-# Aave utilities
+# Olive utilities
 
 <p align="center">
-  <a href="https://aave.com/" rel="noopener" target="_blank"><img width="150" src="https://aave.com/static/media/ghostGradient.77808e40.svg" alt="Aave logo"></a></p>
+  <a href="https://aave.com/" rel="noopener" target="_blank"><img width="150" src="https://olive.cash/logo.png" alt="Aave logo"></a></p>
 
-<h1 align="center">Aave utilities</h1>
+<h1 align="center">Olive utilities</h1>
 
 ## Installation
 
 Aave utilities are available as npm
-packages[¹](https://www.npmjs.com/package/@aave/contract-helpers)[²](https://www.npmjs.com/package/@aave/math-utils).
+packages[¹](https://www.npmjs.com/package/@olive-dev/contract-helpers)[²](https://www.npmjs.com/package/@olive-dev/math-utils).
 
 ```sh
 // with npm
-npm install @aave/contract-helpers @aave/math-utils
+npm install @olive-dev/contract-helpers @olive-dev/math-utils
 // with yarn
-yarn add @aave/contract-helpers @aave/math-utils
+yarn add @olive-dev/contract-helpers @olive-dev/math-utils
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ yarn add @aave/contract-helpers @aave/math-utils
 Here is a quick example to get you started:
 
 ```ts
-import { PermissionManager } from '@aave/contract-helpers';
+import { PermissionManager } from '@olive-dev/contract-helpers';
 
 const instance = new PermissionManager({
   provider: rpcProvider,
@@ -36,5 +36,5 @@ const permissions = await instance.getHumanizedUserPermissions(walletAddress);
 Are you looking for an example project to get started? Check out repositories
 relying on this library:
 
-- [The open source aave ui](https://github.com/aave/aave-ui)
+- [The open source aave ui](https://github.com/olivecash/aave-ui)
 - [Aave info](https://github.com/sakulstra/info.aave)
